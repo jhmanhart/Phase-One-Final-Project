@@ -10,7 +10,7 @@ const recipeListLink = () => document.getElementById("recipe-list-link");
 const recipeAddLink = () => document.getElementById("recipe-add-link");
 const nameInput = () => document.getElementById("name");
 const descriptionInput = () => document.getElementById("description");
-const urlInput = () => document.getElementById("url");
+const urlInput = () => document.getElementById("URL");
 
 // TEMPLATES
 
@@ -98,9 +98,9 @@ const renderRecipeForm = () => {
     descriptionInput.setAttribute('id', 'description');
     descriptionInput.setAttribute('type', 'text');
     descriptionLabel.setAttribute('for', 'description');
-    urlInput.setAttribute('id', 'url');
+    urlInput.setAttribute('id', 'URL');
     urlInput.setAttribute('type', 'text');
-    urlLabel.setAttribute('for', 'url');
+    urlLabel.setAttribute('for', 'URL');
     submitButton.setAttribute('type', 'submit');
     submitButton.setAttribute('value', 'Create Recipe');
   
