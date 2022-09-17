@@ -1,22 +1,28 @@
 {
-    "recipes": [
-        {
-            "id": 1,
-            "name": "Artichoke Dip",
-            "description": "Dip with artichoke hearts, spinach, feta, and parmesan",
-            "URL": "https://www.cookingclassy.com/spinach-artichoke-dip/"
-        },
-        {
-            "id": 2,
-            "name": "Pesto Chicken Bake",
-            "description": "Chicken bake with pesto, cream cheese, mozzarella, and tomatoes",
-            "URL": "https://tasty.co/recipe/pesto-chicken-bake"
-        },
-        {
-            "id": 3,
-            "name": "Bang Bang Shrimp",
-            "description": "Shrimp with a spicy sauce",
-            "URL": "https://www.tablefortwoblog.com/bang-bang-shrimp/"
-        }
-    ]
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Artichoke Dip",
+      "description": "Dip with artichoke hearts, spinach, feta, and parmesan",
+      "URL": "https://www.cookingclassy.com/spinach-artichoke-dip/"
+    },
+    {
+      "id": 2,
+      "name": "Pesto Chicken Bake",
+      "description": "Chicken bake with pesto, cream cheese, mozzarella, and tomatoes",
+      "URL": "https://tasty.co/recipe/pesto-chicken-bake"
+    },
+    {
+      "id": 3,
+      "name": "Bang Bang Shrimp",
+      "description": "Shrimp with a spicy sauce",
+      "URL": "https://www.tablefortwoblog.com/bang-bang-shrimp/"
+    },
+    {
+      "name": "New York Style Cheesecake with Graham Cracker Crust",
+      "description": "Creamy, smooth, delicious New York Cheesecake. Customizable with your choice of topping. ",
+      "URL": "https://www.bonappetit.com/recipe/bas-best-cheesecake",
+      "id": 4
+    }
+  ]
 }
