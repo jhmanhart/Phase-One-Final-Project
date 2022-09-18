@@ -174,7 +174,7 @@ const submitFormEvent = e => {
       body: JSON.stringify({
         name: nameInput().value,
         description: descriptionInput().value,
-        url: urlInput().value,
+        URL: urlInput().value,
       })
     })
     .then(resp => resp.json())
