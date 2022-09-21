@@ -29,6 +29,12 @@
       "description": "Chicken with breading, red sauce, and melted cheese on top",
       "URL": "https://cafedelites.com/crispy-chicken-parmesan/",
       "id": 5
+    },
+    {
+      "name": "Buffalo Chicken Dip",
+      "description": "Dip for chips or crackers that has buffalo sauce and chicken",
+      "URL": "https://cafedelites.com/buffalo-chicken-dip/",
+      "id": 6
     }
   ]
 }

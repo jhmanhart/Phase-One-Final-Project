@@ -123,6 +123,7 @@ const renderRecipeForm = () => {
     form.appendChild(submitButton);
   
     form.addEventListener('submit', submitFormEvent);
+    
   
     mainDiv().appendChild(h1);
     mainDiv().appendChild(form);
@@ -145,8 +146,10 @@ const homePageClickEvent = () => {
 }
 
 const recipeListClickEvent = () => {
-    recipeListLink().addEventListener("click", (e) => {
+    recipeListLink().addEventListener("click", async (e) => {
         e.preventDefault();
+        await loadRecipes();
+        debugger;
         renderRecipeListPage();
     })
 }
@@ -178,8 +181,8 @@ const submitFormEvent = e => {
       })
     })
     .then(resp => resp.json())
-    .then(recipe => {
-      renderRecipeListPage();
+    .then(_recipe => {
+      renderRecipeForm();
     })
   }
  
