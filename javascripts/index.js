@@ -181,8 +181,9 @@ const submitFormEvent = e => {
       })
     })
     .then(resp => resp.json())
-    .then(_recipe => {
-      renderRecipeForm();
+    .then(async _recipe => {
+        await loadRecipes();
+      renderRecipeListPage();
     })
   }
  
